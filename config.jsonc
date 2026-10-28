@@ -1,0 +1,117 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "type": "file",
+    "source": "C:/Users/E/.config/fastfetch/ascii.txt",
+    "color": {
+      "1": "#000000",
+      "2": "#E01010",
+      "3": "#C00000",
+      "4": "#A00000",
+      "5": "#FF4444",
+      "6": "#EE2020",
+      "7": "#CC0000",
+      "8": "#AA0000",
+      "9": "#FF6666"
+    },
+    "padding": {
+      "top": 1,
+      "right": 3
+    }
+  },
+  "modules": [
+    "break",
+    {
+      "type": "title",
+      "color": {
+        "user": "#235235",
+        "at": "#6C7086",
+        "host": "#000000"
+      }
+    },
+    {
+      "type": "separator",
+      "string": " ",
+      "color": "#000000"
+    },
+    {
+      "type": "os",
+      "key": "  ╭─OS",
+      "keyColor": "#000000"
+    },
+    {
+      "type": "kernel",
+      "key": "  ├─BUILD",
+      "keyColor": "#000000"
+    },
+    {
+      "type": "wm",
+      "key": "  ├─WM",
+      "keyColor": "#000000"
+    },
+    {
+      "type": "uptime",
+      "key": "  ╰─UPTIME",
+      "keyColor": "#000000"
+    },
+    {
+      "type": "separator",
+      "string": " ",
+      "color": "#000000"
+    },
+    {
+      "type": "cpu",
+      "key": "  ╭─CPU",
+      "keyColor": "#000000",
+      "temp": true
+    },
+    {
+      "type": "board",
+      "key": "  ├─MOBO",
+      "keyColor": "#000000"
+    },
+    {
+      "type": "memory",
+      "key": "  ├─RAM",
+      "keyColor": "#000000",
+      "format": "{used} / {total} ({percentage}%)"
+    },
+    {
+      "type": "swap",
+      "key": "󰓡  ├─SWAP",
+      "keyColor": "#000000",
+      "format": "{used} / {total} ({percentage}%)"
+    },
+    {
+      "type": "wallpaper",
+      "key": "󰸉  ├─BGW",
+      "keyColor": "#000000"
+    },
+    {
+      "type": "disk",
+      "key": "  ├─DISK",
+      "keyColor": "#000000"
+    },
+    {
+      "type": "processes",
+      "key": "  ╰─PROCESSES",
+      "keyColor": "#000000"
+    },
+    {
+      "type": "separator",
+      "string": " ",
+      "color": "#000000"
+    },
+    {
+      "type": "shell",
+      "key": "  ╭─SHELL",
+      "keyColor": "#000000"
+    },
+    {
+      "type": "terminal",
+      "key": "  ╰─TERM",
+      "keyColor": "#000000"
+    },
+    "break"
+  ]
+}
